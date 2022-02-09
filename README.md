@@ -27,6 +27,7 @@ Code is written in C++, and follows the latest standards, and is formatted using
 **Authors:**   
 [Rehber Moin](https://github.com/docflex)  
 [Aryaman Kolhe](https://github.com/Chasmiccoder)  
+Jay Kaoshik  
 [Rishu Yadav](https://github.com/rishuyadav)  
 **Contributors:**   
 [Gagan Malvi](https://github.com/gaganmalvi)
