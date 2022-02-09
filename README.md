@@ -31,3 +31,4 @@ Jay Kaoshik
 [Rishu Yadav](https://github.com/rishuyadav)  
 **Contributors:**   
 [Gagan Malvi](https://github.com/gaganmalvi)
+[Harsh Avinash](https://github.com/Harsh-Avinash)
