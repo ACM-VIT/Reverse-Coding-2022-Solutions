@@ -15,12 +15,12 @@ Solutions for the Questions asked during Reverse Coding 2022.
 
 ---
 
-This is the Open-Source release of the code used in Reverse Coding 2022. These questions were <br/>
+This is the Open-Source release of the code used in Reverse Coding 2022. These questions were 
 created while keeping the overwhelming number of Juniors who regsitered for the event in Mind.
 
-Code for both rounds are available in their respective folders, with the names depicting the <br/> algorithm the question was designed for. Also Sample Testcases have been provided.
+Code for both rounds are available in their respective folders, with the names depicting the algorithm the question was designed for. Also Sample Testcases have been provided.
 
-All our Code is written in C++, and follows the latest CPP Standards `(C++20)`, and is formatted <br/> using `clang-format`. They are desinged such that any wrong input would notify the participant.
+All our Code is written in C++, and follows the latest CPP Standards `(C++20)`, and is formatted using `clang-format`. They are desinged such that any wrong input would notify the participant.
 
 ---
 
@@ -29,7 +29,7 @@ All our Code is written in C++, and follows the latest CPP Standards `(C++20)`, 
 > Clone the Repository <br/>
 > Link: https://github.com/ACM-VIT/Reverse-Coding-2022-Solutions
 >
-> -   Step 1: Navigate to the required Round Folder. Then Run the Following Command. <br/>This Compiles the Code
+> -   Step 1: Navigate to the required Round Folder. Then Run the Following Command. This Compiles the Code
 >
 > ```shell
 >    $ g++ <Code-File-Name>.cpp -o runCode
