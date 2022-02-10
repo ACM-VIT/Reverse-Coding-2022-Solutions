@@ -2,7 +2,7 @@
     Author: Aryaman Kolhe (@ChasmicCoder)
 
     Test Case Description:
-    The first line of the input contains an integer T (between 1 and 50, inclusive), 
+    The first line of the input contains an integer T (between 1 and 50, inclusive),
     which describes the number of testcases.
     Each testcase has one integer, ranging from 1 to 10^18
 */
@@ -21,29 +21,26 @@
 #include <iostream>
 #include <math.h>
 
-
-void solve(long long n) {
-    long long p1 = round(log2(n)), p2 = round(log2(n)) + 1;
-    long long ans1 = abs(round(pow(2, p1)) - n), ans2 = abs(round(pow(2, p2)) - n);
-    if (ans1 < ans2)
-        std::cout << ans1 << "\n";
-    else
-        std::cout << ans2 << "\n";
+void solveMyProblem(int n) {
+    int ans = 0, low = 0, high = 0;
+    for (int i = n; i >= 1; i--) {
+        if (!(i & (i - 1))) {
+            low = i;
+            break;
+        }
+    }
+    high = low * 2;
+    ans = std::min(abs(n - low), abs(n - high));
+    std::cout << ans << std::endl;
 }
 
 int main() {
     try {
-        int testcases;
-        std::cin >> testcases;
-        if (!std::cin || testcases < 1 || testcases > 50)
+        int n;
+        std::cin >> n;
+        if (!std::cin || (n < 0 || n > 1000000000))
             throw -1;
-        long long n;
-        for (int T = 0; T < testcases; T++) {
-            std::cin >> n;
-            if (!std::cin || n < 1 || n > round(pow(10, 18)))
-                throw -2;
-            solve(n);
-        }
-    } catch (...) { std::cout << "Invalid Input. Please Check the Question Description.\n"; }
+        solveMyProblem(n);
+    } catch (...) { std::cout << "Invalid Input. Please Check The Question Description." << std::endl; }
     return 0;
 }
